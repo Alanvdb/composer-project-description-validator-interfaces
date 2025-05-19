@@ -1,0 +1,21 @@
+{
+    "name": "alanvdb/composer-project-description-validator-interfaces",
+    "description": "Composer project description validator interfaces.",
+    "type": "library",
+    "require": {
+        "alanvdb/validator-interface": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
